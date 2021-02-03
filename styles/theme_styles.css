@@ -17,7 +17,7 @@ main {
 
 .stuff span {
     display: block;
-    padding-top: 1em;
+    padding-top: 0.4em;
     font-size: 10ch;
 }
 

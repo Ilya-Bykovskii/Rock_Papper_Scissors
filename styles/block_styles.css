@@ -29,7 +29,7 @@ header img {
 .game-area {
     width: 100vw;
     height: 75vh;
-	display: flexbox;
+	display: flex;
 	justify-content: center;
     flex-direction: column;
     
