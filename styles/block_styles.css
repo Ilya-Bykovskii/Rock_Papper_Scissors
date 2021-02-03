@@ -1,0 +1,54 @@
+/* 1. HEADER */
+header {
+    min-height: 20vh;
+}
+
+header img {
+    /* left: -50px; */
+    position: absolute;
+    width: 3vw;
+    height: auto;
+}
+
+.intro {
+    z-index: 100;
+}
+
+/* 2. MAIN */
+.fight-area-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.game-area {
+    width: 80vw;
+    height: 60vh;
+	display: flexbox;
+	justify-content: center;
+    flex-direction: column;
+    
+    margin-top: 5vh;
+
+	background-color: rebeccapurple;
+}
+
+.stuff {
+    text-align: center;
+    width: 30vw;
+}
+
+.fight-area {
+    width: 20vw;
+}
+
+.select-stuff {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+    /* width: 40vw; */
+    
+    margin-top: 5vh;
+
+	background-color: rosybrown	;
+}
