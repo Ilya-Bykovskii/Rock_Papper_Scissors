@@ -12,26 +12,35 @@ header {
 /* MAIN */
 main {
     background-color: #e3c652;
+    color: whitesmoke;
+}
+
+.stuff span {
+    display: block;
+    padding-top: 1em;
+    font-size: 10ch;
 }
 
 .select-stuff section {
     background-color: #518049;   
     font-size: 3vh;
-    color: whitesmoke;
 
     cursor: pointer;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    transition: top 1s ease-out 0.5s;
+
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: 300ms;
 }
 
 .select-stuff section:hover {
     background-color: #3c7559;
-    width: 13vw;
-    height: 7vh;;
+    transform: scale(1.2);
 }
 
 .fight-status {
     font-size: 10vw;
+    color: tomato;
 }
 
 

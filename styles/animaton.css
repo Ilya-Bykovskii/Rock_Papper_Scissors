@@ -30,3 +30,17 @@ header img{
         top: 10vh;
     }
 }
+
+.fight-status {
+    /* animation: shake-font 300ms linear infinite ; */
+}
+
+@keyframes shake-font {
+    from {
+        transform: scale(1.1);
+    }
+
+    to {
+        transform: scale(1.03);
+    }
+}
