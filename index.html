@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="/styles/animaton.css">
 
     <script src="https://unpkg.com/phosphor-icons"></script> <!-- add icon -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -21,7 +23,6 @@
         </div>
     </header>
     <main>
-        <div class="game-container">
             <div class="game-area">
                 <div class="fight-area-cont">
                     <div class="your-stuff stuff">
@@ -32,6 +33,7 @@
                 </div>
                 <div class="fight-area">
                     <div class="fight-status">
+                        win
                     </div>
                 </div>
                 <div class="enemy-stuff stuff">
@@ -43,48 +45,19 @@
                 </div>
                 
                 <div class="select-stuff">
-                    <div class="select-papper">
+                    <section class="select-papper">
                         paper
-                    </div>
-                    <div class="select-rock">
-                        Rock
-                    </div>
-                    <div class="select-scissors">
+                    </section>
+                    <section class="select-rock">
+                        rock
+                    </section>
+                    <section class="select-scissors">
                         scissors
-                    </div>
+                    </section>
                 </div>
             </div>
-        </div>
-        <div class="game-result">
-            <div class="result-area">
-                <div class="result-bar"></div>
-                <table class="result-table">
-                    <legend>
-                        <span>You</span>
-                        <span>PC</span>
-                    </legend>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                    </tr>
-                </table>
-            </div>
-        </div>
     </main>
-    <footer>
 
-    </footer>
     <script src="/main.js"></script>
 </body>
 </html>

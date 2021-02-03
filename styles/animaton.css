@@ -1,5 +1,5 @@
 header img{
-    animation: stone-fly 3s linear 1.5s infinite;
+    animation: stone-fly 4s linear infinite;
 }
 
 @keyframes stone-fly {
@@ -17,7 +17,7 @@ header img{
     }
 
     30% {
-        top: 15.3vh;
+        top: 18vh;
     }
 
     50% {
@@ -25,7 +25,7 @@ header img{
     }
 
     to {
-        left: 95.5vw;
+        left: 150vw;
         transform: rotate(680deg);
         top: 10vh;
     }

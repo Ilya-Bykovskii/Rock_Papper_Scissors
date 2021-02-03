@@ -42,10 +42,15 @@ table {
 	border-spacing: 0;
 }
 /* ======= USER STYLES ========= */
+* {
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
 body {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	overflow-x: hidden;
 }
 
 /* 1. HEADER */
@@ -53,19 +58,15 @@ header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	overflow: hidden;
+
+	height: 20vh;
 }
 /* 2. MAIN */
 main {
 	display: flex;
-	flex-direction: column;
-}
-/* 2.1. GAME */
-.game-container {
-	display: flex;
 	justify-content: center;
 }
+/* 2.1. GAME */
 
-/* 2.2 RESULTS */
 
 /* 3. FOOTER */

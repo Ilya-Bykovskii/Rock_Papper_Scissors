@@ -1,12 +1,39 @@
 /* HEADER */
+header {
+    background-color: #f07f62;
+}
+
+.intro {
+    background-color: #3d092e;
+    color: whitesmoke;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
 
 /* MAIN */
-/* GAME-AREA */
-.question {
-    height: 20vh;
-    color: white
+main {
+    background-color: #e3c652;
 }
+
+.select-stuff section {
+    background-color: #518049;   
+    font-size: 3vh;
+    color: whitesmoke;
+
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: top 1s ease-out 0.5s;
+}
+
+.select-stuff section:hover {
+    background-color: #3c7559;
+    width: 13vw;
+    height: 7vh;;
+}
+
+.fight-status {
+    font-size: 10vw;
+}
+
+
 /* GAME-RESULT */
 
-
-/* FOOTER */

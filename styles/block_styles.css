@@ -1,36 +1,44 @@
 /* 1. HEADER */
-header {
-    min-height: 20vh;
-}
-
 header img {
     /* left: -50px; */
     position: absolute;
-    width: 3vw;
+    width: 5vw;
     height: auto;
 }
 
 .intro {
     z-index: 100;
+    width: 40vw;
+    height: 5vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* 2. MAIN */
+.question {
+    height: 20vh;
+    margin-top: 7vh;
+}
+
 .fight-area-cont {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    height: 45vh;
+
+    margin-top: 5vh;
 }
 
 .game-area {
-    width: 80vw;
-    height: 60vh;
+    width: 100vw;
+    height: 75vh;
 	display: flexbox;
 	justify-content: center;
     flex-direction: column;
     
     margin-top: 5vh;
-
-	background-color: rebeccapurple;
 }
 
 .stuff {
@@ -40,15 +48,33 @@ header img {
 
 .fight-area {
     width: 20vw;
+    display: flex;
+    justify-content: center;    
+    /* align-items: center; */
+}
+
+.fight-area .fight-status {
+    margin-top: 10vh;
 }
 
 .select-stuff {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-    /* width: 40vw; */
     
     margin-top: 5vh;
-
-	background-color: rosybrown	;
 }
+
+.select-stuff section {
+    min-width: 12vw;
+    min-height: 6vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: whitesmoke 1px solid;
+    border-radius: 5px;
+}
+
+/* FOOTER */
