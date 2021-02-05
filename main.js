@@ -1,6 +1,6 @@
 'use strict'
 
-let game = function() {
+let gameWarp = function() {
     return (function() {
         let __myCount = 0,
             __enemyCount = 0;
@@ -57,4 +57,4 @@ let game = function() {
     })();
 }
 
-let a = game();
+let game = gameWarp();
