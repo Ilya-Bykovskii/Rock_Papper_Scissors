@@ -5,8 +5,6 @@ class FlyingStone {
                 document.querySelector('.for-anim').prepend(elem)
             } catch (error) {
                 console.log(error);
-            } finally {
-                console.log('start promise')
             }
         })();
 
@@ -58,22 +56,14 @@ class FlyingStone {
         return Math.floor(Math.random() * (max - min) + min);
     }
 }
-
-// const anim = new FlyingStone(document.querySelector('.for-anim img'), 0); 
-// let animFly = function() {
-//     anim.setValues().then((resolve) => animFly())
-// }
 let figures = [];
-for (let i = 0; i < 4; i++) {
+for (let i = 0; i < 6; i++) {
     figures.push(new FlyingStone(document.querySelector('.for-anim img').cloneNode(false)))
 }
-// console.log(figures)
-
 let start = function(item) {
     item.setValues().then((resolve) => start(item))
 }
 let animFly = function() {
     figures.forEach(item => start(item))
 }
-
 animFly()

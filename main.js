@@ -52,8 +52,6 @@ let gameWarp = function() {
         }
 
             setEvents();
-
-            // console.log('ran')
     })();
 }
 
